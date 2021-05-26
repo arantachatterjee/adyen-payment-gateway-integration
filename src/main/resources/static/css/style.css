@@ -1,0 +1,112 @@
+/* Project stylesheet */
+
+#leftbox {
+    float: left;
+    background: #F2F3F4;
+    width: 375px;
+    height: 335px;
+    border-radius: 15px 0px 0px 15px;
+}
+#rightbox {
+    float: right;
+    background: #F2F3F4;
+    width: 400px;
+    height: 335px;
+    border-radius: 0px 15px 15px 0px;
+}
+#product-img {
+    max-width: 350px;
+    max-height: 358px;
+    padding: 10px;
+    border-radius: 15px 15px 15px 15px;
+}
+.center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.heading {
+    font-family: Brush Script MT;
+    font-size: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    top: 30%;
+}
+.sub-heading {
+    font-family: Papyrus;
+    font-size: 22px;
+    position: relative;
+    top: 15%;
+    left: 5%;
+    text-align: left;
+    max-width: 350px;
+}
+.product-desc {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    text-align: left;
+    font-family: Papyrus;
+    font-size: 17px;
+    max-width: 350px;
+}
+.additional-info {
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-family: Papyrus;
+    text-align: left;
+    font-size: 17px;
+    color: #1E7650;
+    max-width: 350px;
+}
+.checkout-button {
+    position: relative;
+    top: 10%;
+    text-align: center;
+    font-family: Papyrus;
+    width: 325px;
+    height: 25px;
+    background-color #BCA99A;
+}
+
+.payment{
+    width: 750px;
+    margin: 0 auto;
+    height: 450px;
+    font-family: Papyrus;
+    font-size: 17px;
+}
+
+.status-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status {
+    margin: 100px 0 126px;
+    text-align: center;
+}
+
+.status .status-image {
+    display: block;
+    height: 100px;
+    margin: 16px auto 0;
+}
+
+.status .status-image-thank-you {
+    height: 66px;
+}
+
+.status .status-message {
+    margin: 8px 0 24px;
+}
+
+.status .button {
+    max-width: 236px;
+}
