@@ -38,7 +38,7 @@ public class PaymentResource {
   private final Checkout checkout;
 
   public PaymentResource(@Value("${ADYEN_API_KEY}") String apiKey) {
-    var client = new Client(apiKey, Environment.TEST);
+    Client client = new Client(apiKey, Environment.TEST);
     this.checkout = new Checkout(client);
   }
 
@@ -64,16 +64,16 @@ public class PaymentResource {
   @PostMapping("/makePayment")
   public ResponseEntity<PaymentsResponse> payments(@RequestBody PaymentsRequest body)
           throws IOException, ApiException {
-    var paymentRequest = new PaymentsRequest();
+    PaymentsRequest paymentRequest = new PaymentsRequest();
     paymentRequest.setMerchantAccount(merchantAccount);
     paymentRequest.setChannel(PaymentsRequest.ChannelEnum.WEB);
 
-    var amount = new Amount()
+    Amount amount = new Amount()
             .currency("USD")
             .value(9600L);
     paymentRequest.setAmount(amount);
 
-    var orderRef = UUID.randomUUID().toString();
+    String orderRef = UUID.randomUUID().toString();
     paymentRequest.setReference(orderRef);
     paymentRequest.setOrigin(URL);
     paymentRequest.setPaymentMethod(body.getPaymentMethod());
