@@ -1,1 +1,0 @@
-# adyen-payment-gateway-integration
