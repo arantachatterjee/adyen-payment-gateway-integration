@@ -79,7 +79,7 @@ public class PaymentResource {
     paymentRequest.setPaymentMethod(body.getPaymentMethod());
 
     log.info("REST request to make payment {}", paymentRequest);
-    var response = checkout.payments(paymentRequest);
+    PaymentsResponse response = checkout.payments(paymentRequest);
     return ResponseEntity.ok()
             .body(response);
   }
