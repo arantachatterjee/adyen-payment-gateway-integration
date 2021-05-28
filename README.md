@@ -4,12 +4,6 @@ This repository includes a Java Spring Boot Maven project which replicates a sim
 
 ![Preview](preview.gif)
 
-![My Cart](Cart.png)
-
-![Checkout Page](Checkout.png)
-
-![Result](Result.png)
-
 ## Requirements
 
 * Java 14+
