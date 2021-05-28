@@ -2,9 +2,7 @@
 
 This repository includes a Java Maven project which replicates a simplified version of a shopping cart of an e-commerce website and integrates Adyen's payment gateway for completing payments online.
 
-<video width="320" height="240" controls>
-  <source src="Project Preview.mov" type="video/mp4">
-</video>
+![](Project Preview.mov)
 
 ## Requirements
 
