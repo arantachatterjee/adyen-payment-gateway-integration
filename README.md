@@ -2,8 +2,6 @@
 
 This repository includes a Java Spring Boot Maven project which replicates a simplified version of a shopping cart of an e-commerce website and integrates Adyen's payment gateway for completing payments online.
 
-[![Preview]]({Run Project Preview.mov} "Preview")
-
 ![Preview](preview.gif)
 
 ## Requirements
