@@ -40,6 +40,6 @@ set ADYEN_ORIGIN_KEY=yourAdyenOriginKey
 6. Visit http://localhost:8080/ to complete a test payment.
 
 [Mastercard test card numbers](https://docs.adyen.com/development-resources/test-cards/test-card-numbers#mastercard)
-[Visa test card numbers] (https://docs.adyen.com/development-resources/test-cards/test-card-numbers#visa)
+[Visa test card numbers](https://docs.adyen.com/development-resources/test-cards/test-card-numbers#visa)
 
 Successful transactions can be viewed in Customer Area.
