@@ -1,6 +1,6 @@
 # Adyen Drop-In Payment Gateway Integration
 
-This repository includes a Java Maven project which replicates a simplified version of a shopping cart of an e-commerce website and integrates Adyen's payment gateway for completing payments online.
+This repository includes a Java Spring Boot Maven project which replicates a simplified version of a shopping cart of an e-commerce website and integrates Adyen's payment gateway for completing payments online.
 
 ![My Cart](Cart.png)
 
